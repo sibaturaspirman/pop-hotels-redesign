@@ -1,6 +1,6 @@
 # POP! Hotels Redesign
 
-Live Demo : https://sibaturaspirman.github.io/emax-redesign/<br>
+Live Demo : https://sibaturaspirman.github.io/pop-hotels-redesign/<br>
 
 #DESCRIPTION
 Title : Weekly UI/UX @sibaturAspIrman #3 (PNG files + HTML,CSS,JS) <br>
