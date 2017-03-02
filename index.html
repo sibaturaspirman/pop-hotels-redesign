@@ -1,0 +1,832 @@
+<!--
+
+#DESCRIPTION
+Title : Weekly UI/UX @sibaturAspIrman #3 (PNG files + HTML,CSS,JS)
+Case Study : Redesign Official Site POP! Hotels (pophotels.com)
+Author : Asep Irman
+Download : http://bit.ly/2kGxUtm
+
+#CONTACT
+WhatsApp : 0812 8700 6375
+Instagram : http://instagram.com/sibaturaspirman / @sibaturAspIrman
+Twitter : http://twitter.com/sibaturaspirman / @sibaturAspIrman
+Facebook : https://www.facebook.com/profile.php?id=100000215136900
+LinkedIn : https://www.linkedin.com/in/sibaturaspirman
+Github : https://github.com/sibaturaspirman
+
+#PORTFOLIO
+Website : http://sibatur.com/
+Dribbble : https://dribbble.com/sibaturaspi
+Behance : https://www.behance.net/sibaturasepirmanrman
+Kreavi : http://www.kreavi.com/sibaturaspirman
+Pinterest : https://id.pinterest.com/sibaturaspirman
+
+-->
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<title>POP! Hotels - Penginapan Keren dengan harga murah & bersih</title>
+	<link href='favicon.ico' rel='shortcut icon'>
+	
+	<!--META-->
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="sibatur.com">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="webcrawlers" content="all" />
+    <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+    <meta http-equiv="pragma" content="no-cache" />
+
+        <!--OG-->       
+        <meta property="og:title" content="" />     
+        <meta property="og:description" content="" />     
+        <meta property="og:url" content="domain.com" /> 
+        <meta property="og:image" content="gambar.jpg" />
+        <meta property="og:image:secure_url" content="gambar.jpg" />
+        <meta property="og:site_name" content="" />     
+        <!--!OG-->
+
+    <!--!META-->
+
+	<!--STYLE CSS-->
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,400italic' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" type="text/css" href="gayana/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="gayana/css/sadayana.css">
+
+	<link rel="stylesheet" type="text/css" href="gayana/datetime_picker/jquery.datetimepicker.css"/ >
+
+	<!--!STYLE CSS-->
+
+</head>
+<body>
+
+	<!--PRELOADER-->
+    <div id="preloader">
+    	<div id="loading">&nbsp;</div>
+    </div>
+    <!--!PRELOADER-->
+
+    <!--POPUP-->
+    <a id="buka_popup_Booking" class="baten baten_icon"><i class="i_kursor"></i> <span>Booking Now!</span></a>
+    <div class="batasna_kabeh popup" id="popup_Booking">
+    	<div class="batasna_wrap">
+    		
+    		<div class="popup_blok">
+    			<h2>Pick a POP! Booking Now! <span class="popup_blok_klos" id="popup_blok_klos_Booking">x</span></h2>
+    			<div class="popup_blok_konten popup_booking">
+    				
+    				<div class="form form_border">
+		    			<form>
+		    				<div class="clr"></div>
+
+		    				<div class="blok_form blok_form_100">
+		    					<div class="selek">
+		    						<select class="input input_pad">
+			    						<option value="">Destination</option>
+			    						<option value="">Jakarta</option>
+			    						<option value="">Bandung</option>
+			    						<option value="">Yogyakarta</option>
+			    						<option value="">Surabaya</option>
+			    						<option value="">Bali</option>
+			    					</select>
+		    					</div>
+		    				</div>
+
+		    				<div class="blok_form blok_form_100">
+		    					<div class="selek">
+		    						<select class="input input_pad">
+			    						<option value="">Hotel Name</option>
+			    						<option value="">POP! Hotels Kemang</option>
+			    						<option value="">POP! Hotels Kelapa Gading</option>
+			    						<option value="">POP! Hotels Airport</option>
+			    						<option value="">POP! Hotels Pasar Baru</option>
+			    					</select>
+		    					</div>
+		    				</div>
+
+		    				<div class="blok_form ubbkk_k_blok_form_kenca">
+		    					<input type="text" name="" class="input input_pad datetimepicker1" placeholder="Date">
+		    				</div>
+
+		    				<div class="blok_form ubbkk_k_blok_form_katuhu">
+		    					<input type="text" name="" class="input input_pad datetimepicker1" placeholder="Date">
+		    				</div>
+
+		    				<div class="blok_form blok_form_100">
+		    					<input type="text" name="" class="input input_pad" placeholder="Promo Code">
+		    				</div>
+
+		    				<div class="blok_form blok_form_100 tengah">
+		    					<button class="baten baten_icon"><i class="i_kursor"></i> <span>Booking Now!</span></button>
+		    				</div>
+
+		    				<div class="clr"></div>
+		    			</form>
+		    		</div>
+
+    			</div>
+    		</div>
+
+    	</div>
+    </div>
+    <!--POPUP-->
+
+    <!--KONTEN MENU MOBILE-->
+    <div class="konten_menu_mobile" id="konten_menu_mobile">
+    	<a href="" title="" class="kmm_logo"><img src="gayana/gambar/logo.png" title="" alt=""></a>
+
+    	<ul class="kmm_menu">
+    		<li><a href="" title="">Home</a></li>
+    		<li><a href="" title="">Pick a POP!</a></li>
+    		<li><a href="" title="">Gallery</a></li>
+    		<li><a href="" title="">Your Wall</a></li>
+    		<li><a href="" title="">Green Planet</a></li>
+    		<li><a href="" title="">Buzz</a></li>
+    		<li><a href="" title="">Contact</a></li>
+    		<!--<li class="kmm_menu_anakan"><a title="">Sub Menu <i></i></a> 
+    			<ul>
+    				<li><a href="" title="">Sub Menu 1</a></li>
+		    		<li><a href="" title="">Sub Menu 2</a></li>
+		    		<li><a href="" title="">Sub Menu 3</a></li>
+		    		<li><a href="" title="">Sub Menu 4</a></li>
+    			</ul>
+    		</li>-->
+    	</ul>
+
+    </div>
+    <!--KONTEN MENU MOBILE-->
+    
+    <header class="batasna_kabeh" id="header_menu">
+
+    	<div class="batasna_kabeh menu_utama_v2">
+    			<div class="muv2_kenca wow fadeInDown animated">
+    				<a href="" title=""><img src="gayana/gambar/logo.png" title="" alt=""></a>
+    			</div>
+    			<div class="muv2_tengah wow fadeInDown animated">
+    				<ul>
+    					<li><a href="" title="">Home</a></li><!--
+    					--><li><a href="" title="">Pick a POP!</a></li><!--
+    					--><li><a href="" title="">Gallery</a></li><!--
+    					--><li><a href="" title="">Your Wall</a></li><!--
+    					--><li><a href="" title="">Green Planet</a></li><!--
+    					--><li><a href="" title="">Buzz</a></li><!--
+    					--><li><a href="" title="">Contact</a></li><!--
+    					--><!--<li><a href="" title="">Sub Menu</a>
+    						<ul>
+    							<li><a href="" title="">Sub Menu 1</a>
+    							<li><a href="" title="">Sub Menu 2</a>
+    							<li><a href="" title="">Sub Menu 3</a>
+    							<li><a href="" title="">Sub Menu 4</a>
+    						</ul>
+    					</li>--><!--
+    					--><li class="hint--rounded hint--biru hint--bounce hint--left hint--13 hint--poek" data-hint="Change Language to Bahasa"><a href="" title="" class="muv2_tengah_bahasa">EN</a></li>
+    				</ul>
+    			</div>
+    	</div>
+
+    	<div class="batasna_kabeh menu_mobile">
+    		<div class="batasna_wrap">
+
+    			<div class="mm_kenca">
+    				<a href="" title=""><img src="gayana/gambar/logo.png" title="" alt=""></a>
+    			</div>
+
+    			<div class="mm_katuhu">
+    				<a id="menu_mobile">
+    					<span class="mmk_teks">Menu</span>
+    					<span class="mmk_ikon"></span>
+    				</a>
+    			</div>
+
+    		</div>
+    	</div>
+
+    </header>
+
+
+    <!--KONTEN-->
+    <div class="batasna_kabeh konten_isi" id="konten_isi">
+
+	    <section class="batasna_kabeh hulu_luhur bgPRLK">
+	    	<div class="batasna_kabeh cjh_bg_trans">
+	    		<div class="batasna_wrap">
+		    		<h1 class="wow fadeInDown animated" data-wow-delay="0s">A modern stylish budget hotel for smart and eco-friendly travellers</h1>
+		    		<div class="separator separator_nengah separator_bodas wow fadeInDown animated" data-wow-delay="0.3s"><span></span></div>
+		    		<p class="wow fadeInDown animated" data-wow-delay="0.4s">POP! is low on cost, High on VALUE</p>
+		    	</div>
+
+	    	</div>
+	    </section>
+
+	    <section class="batasna_kabeh biru_blok bgPRLK">
+	    	<div class="batasna_wrap">
+
+	    		<div class="utama_bb_kk wow fadeInUp animated">
+	    			<div class="clr"></div>
+
+	    			<div class="utama_bb_kk_kenca utama_bb_kk_kenca_gambar">
+	    				<div class="ubk_kenca_gambar_peging">
+	    					<span class="prev" id="ubk_kenca_gambar_prev"></span><!--
+	    					--><span class="next" id="ubk_kenca_gambar_next"></span>
+	    				</div>
+	    				<ul id="utama_bb_kk_kenca_gambar">
+	    					<li>
+	    						<div class="ubk_kenca_gambar">
+
+	    							<div class="ubk_kenca_gambar_shadow"></div>
+
+	    							<div class="ubk_kenca_gambar_text">
+	    								<h3>Feel Free</h3>
+	    								<h4>Exclusive Deal With Bank Mega</h4>	
+	    							</div>
+
+	    							<img src="KONTEN/x.jpg" title="" alt="">
+	    						</div>
+	    					</li>
+	    					<li>
+	    						<div class="ubk_kenca_gambar">
+
+	    							<div class="ubk_kenca_gambar_shadow"></div>
+
+	    							<div class="ubk_kenca_gambar_text">
+	    								<h3>Feel Free</h3>
+	    								<h4>Exclusive Deal With Bank Mega</h4>	
+	    							</div>
+
+	    							<img src="KONTEN/x2.jpg" title="" alt="">
+	    						</div>
+	    					</li>
+	    				</ul>
+	    			</div>
+	    			<div class="utama_bb_kk_katuhu">
+	    				<h3 class="wow fadeInDown animated" data-wow-delay="0s">Pick a POP!</h3>
+	    				<div class="form form_border">
+			    			<form>
+			    				<div class="clr"></div>
+
+			    				<div class="blok_form blok_form_100 wow fadeInDown animated" data-wow-delay="0.2s">
+			    					<div class="selek">
+			    						<select class="input input_pad">
+				    						<option value="">Destination</option>
+				    						<option value="">Jakarta</option>
+				    						<option value="">Bandung</option>
+				    						<option value="">Yogyakarta</option>
+				    						<option value="">Surabaya</option>
+				    						<option value="">Bali</option>
+				    					</select>
+			    					</div>
+			    				</div>
+
+			    				<div class="blok_form blok_form_100 wow fadeInDown animated" data-wow-delay="0.4s">
+			    					<div class="selek">
+			    						<select class="input input_pad">
+				    						<option value="">Hotel Name</option>
+				    						<option value="">POP! Hotels Kemang</option>
+				    						<option value="">POP! Hotels Kelapa Gading</option>
+				    						<option value="">POP! Hotels Airport</option>
+				    						<option value="">POP! Hotels Pasar Baru</option>
+				    					</select>
+			    					</div>
+			    				</div>
+
+			    				<div class="blok_form ubbkk_k_blok_form_kenca wow fadeInDown animated" data-wow-delay="0.6s">
+			    					<input type="text" name="" class="input input_pad datetimepicker1" placeholder="Date">
+			    				</div>
+
+			    				<div class="blok_form ubbkk_k_blok_form_katuhu wow fadeInDown animated" data-wow-delay="0.6s">
+			    					<input type="text" name="" class="input input_pad datetimepicker1" placeholder="Date">
+			    				</div>
+
+			    				<div class="blok_form blok_form_100 wow fadeInDown animated" data-wow-delay="0.8s">
+			    					<input type="text" name="" class="input input_pad" placeholder="Promo Code">
+			    				</div>
+
+			    				<div class="blok_form blok_form_100 teu_margin wow fadeInDown animated" data-wow-delay="1s">
+			    					<button class="baten baten_icon"><i class="i_kursor"></i> <span>Booking Now!</span></button>
+			    				</div>
+
+			    				<div class="clr"></div>
+			    			</form>
+			    		</div>
+	    			</div>
+
+	    			<div class="clr"></div>
+	    		</div>
+
+	    		<div class="text_bb_kk">
+	    			<h3 class="wow fadeInDown animated" data-wow-delay="0s">POP! is Eco Friendly</h3>
+	    			<p class="wow fadeInDown animated" data-wow-delay="0.2s">Because what you do to your environment matters</p>
+	    		</div>
+
+	    	</div>
+	    </section>
+
+	    <section class="batasna_kabeh selling_point">
+	    	<div class="batasna_wrap">
+
+	    		<div class="selpont_text wow fadeInUp animated" data-wow-delay="0s">
+	    			<h3>The Room</h3>
+	    			<p>A comfort king size bed, comfy third bed, 100% cotton linen, in room safe deposit box, up to 3 person.</p>
+	    			<span>That’s POP!</span>
+	    		</div><!--
+	    		--><div class="selpont_gambar wow fadeInUp animated" data-wow-delay="0.6s">
+	    			<img src="KONTEN/selpont_1.png" title="" alt="">
+	    		</div>
+
+	    	</div>
+	    </section>
+
+	    <section class="batasna_kabeh selling_point selling_point_katuhu">
+	    	<div class="batasna_wrap">
+
+	    		<div class="selpont_gambar wow fadeInUp animated" data-wow-delay="0.6s">
+	    			<img src="KONTEN/selpont_2.png" title="" alt="">
+	    		</div><!--
+	    		--><div class="selpont_text wow fadeInUp animated" data-wow-delay="0s">
+	    			<h3>The Rate</h3>
+	    			<p>Maximum value for money, free breakfast, all-in-one rate!</p>
+	    			<span>That’s POP!</span>
+	    		</div>
+
+	    	</div>
+	    </section>
+
+	    <section class="batasna_kabeh selling_point">
+	    	<div class="batasna_wrap">
+
+	    		<div class="selpont_text wow fadeInUp animated" data-wow-delay="0s">
+	    			<h3>Eco-Friendly</h3>
+	    			<p>Get green with Us! Join in to save the environment!</p>
+	    			<span>That’s POP!</span>
+	    		</div><!--
+	    		--><div class="selpont_gambar wow fadeInUp animated" data-wow-delay="0.6s">
+	    			<img src="KONTEN/selpont_3.png" title="" alt="">
+	    		</div>
+
+	    	</div>
+	    </section>
+
+	    <section class="batasna_kabeh selling_point selling_point_katuhu">
+	    	<div class="batasna_wrap">
+
+	    		<div class="selpont_gambar wow fadeInUp animated" data-wow-delay="0.6s">
+	    			<img src="KONTEN/selpont_4.png" title="" alt="">
+	    		</div><!--
+	    		--><div class="selpont_text wow fadeInUp animated" data-wow-delay="0s">
+	    			<h3>Many More</h3>
+	    			<p>Free Wifi, Free Internet Corner, Vending Machine, International Cable TV Channel, etc.</p>
+	    			<span>That’s POP!</span>
+	    		</div>
+
+	    	</div>
+	    </section>
+
+	    <section class="batasna_kabeh artikel">
+	    	<div class="batasna_wrap">
+
+	    		<div class="judul_artikel wow fadeInUp animated" data-wow-delay="0s">
+	    			<div class="ja_kenca">
+	    				<h3 class="ja_kenca_h3_small">Green</h3>
+	    				<h3>Planet</h3>
+	    				<div class="separator_border"><span></span></div>
+	    			</div><!--
+	    			--><div class="ja_katuhu">
+	    				<p>Caught the travel bug? Feeling green? Then check out our green travel tips, Indonesian eco-friendly destinations, and catch up on what we’re doing at POP! Hotels to protect our environment.</p>
+	    			</div>
+	    		</div>
+
+	    		<div class="list_artikel wow fadeInUp animated" data-wow-delay="0.3s">
+
+	    			<div class="peging_list_artikel">
+	    				<span class="pla_prev" id="pla_prev"></span>
+	    				<span class="pla_next" id="pla_next"></span>
+	    			</div>
+
+	    			<div class="clr"></div>
+	    			<ul id="pla_list">
+	    				<li>
+	    					<a href="" title="">
+	    						<div class="la_gambar">
+	    							<img src="KONTEN/artikel_1.jpg" title="" alt="">
+	    						</div>
+	    						<h4>How to See Marine Turtles When Travelling in Bali</h4>
+	    						<div class="separator_border"><span></span></div>
+	    						<p>When you’re staying in Bali’s busy Kuta area, it’s hard to imagine that a few years ago beaches here were…</p>
+	    					</a>
+	    				</li>
+	    				<li>
+	    					<a href="" title="">
+	    						<div class="la_gambar">
+	    							<img src="KONTEN/artikel_2.jpg" title="" alt="">
+	    						</div>
+	    						<h4>8 Green Tips When Travelling in Indonesia</h4>
+	    						<div class="separator_border"><span></span></div>
+	    						<p>If you think that being green when travelling in Indonesia will involve making uncomfortable sacrifices... then think again. Having a…</p>
+	    					</a>
+	    				</li>
+	    				<li>
+	    					<a href="" title="">
+	    						<div class="la_gambar">
+	    							<img src="KONTEN/artikel_3.jpg" title="" alt="">
+	    						</div>
+	    						<h4>Hi, You’ve Landed on Green Planet :-)</h4>
+	    						<div class="separator_border"><span></span></div>
+	    						<p>If you are reading this, we’re guessing that you have caught the travel bug (or is it a fever?). You’re…</p>
+	    					</a>
+	    				</li>
+	    				<li>
+	    					<a href="" title="">
+	    						<div class="la_gambar">
+	    							<img src="KONTEN/artikel_1.jpg" title="" alt="">
+	    						</div>
+	    						<h4>How to See Marine Turtles When Travelling in Bali</h4>
+	    						<div class="separator_border"><span></span></div>
+	    						<p>When you’re staying in Bali’s busy Kuta area, it’s hard to imagine that a few years ago beaches here were…</p>
+	    					</a>
+	    				</li>
+	    				<li>
+	    					<a href="" title="">
+	    						<div class="la_gambar">
+	    							<img src="KONTEN/artikel_2.jpg" title="" alt="">
+	    						</div>
+	    						<h4>8 Green Tips When Travelling in Indonesia</h4>
+	    						<div class="separator_border"><span></span></div>
+	    						<p>If you think that being green when travelling in Indonesia will involve making uncomfortable sacrifices... then think again. Having a…</p>
+	    					</a>
+	    				</li>
+	    				<li>
+	    					<a href="" title="">
+	    						<div class="la_gambar">
+	    							<img src="KONTEN/artikel_3.jpg" title="" alt="">
+	    						</div>
+	    						<h4>Hi, You’ve Landed on Green Planet :-)</h4>
+	    						<div class="separator_border"><span></span></div>
+	    						<p>If you are reading this, we’re guessing that you have caught the travel bug (or is it a fever?). You’re…</p>
+	    					</a>
+	    				</li>
+	    			</ul>
+	    			<div class="clr"></div>
+	    		</div>
+
+
+	    		<div class="all_artikel wow fadeInUp animated" data-wow-delay="0s">
+	    			 <a href="" class="baten"><span>All Green Planet</span></a>
+	    		</div>
+
+	    	</div>
+	    </section>
+
+	    <section class="batasna_kabeh artikel artikel_2">
+	    	<div class="batasna_wrap">
+
+	    		<div class="judul_artikel wow fadeInUp animated" data-wow-delay="0s">
+	    			<div class="ja_kenca">
+	    				<h3>Buzz</h3>
+	    				<div class="separator_border"><span></span></div>
+	    			</div><!--
+	    			--><div class="ja_katuhu">
+	    				<p>Get the latest news on what’s happening at POP! Hotels. Need more? Get in touch with us. Contact : buzz@pophotels.com</p>
+	    			</div>
+	    		</div>
+
+	    		<div class="list_artikel wow fadeInUp animated" data-wow-delay="0.3s">
+
+	    			<div class="peging_list_artikel">
+	    				<span class="pla_prev" id="pla_prev_2"></span>
+	    				<span class="pla_next" id="pla_next_2"></span>
+	    			</div>
+
+	    			<div class="clr"></div>
+	    			<ul id="pla_list_2">
+	    				<li>
+	    					<a href="" title="">
+	    						<div class="la_gambar">
+	    							<img src="KONTEN/artikel_4.jpg" title="" alt="">
+	    						</div>
+	    						<h4>POP! Hotels Supports PROFAUNA Creative Design Competition to Raise Awareness on Endangered Forest Issue</h4>
+	    						<div class="separator_border"><span></span></div>
+	    					</a>
+	    				</li>
+	    				<li>
+	    					<a href="" title="">
+	    						<div class="la_gambar">
+	    							<img src="KONTEN/artikel_5.jpg" title="" alt="">
+	    						</div>
+	    						<h4>POP! Hotel Kemang Celebrated Second Anniversary with #KEMANGBEBASSAMPAH2016</h4>
+	    						<div class="separator_border"><span></span></div>
+	    					</a>
+	    				</li>
+	    				<li>
+	    					<a href="" title="">
+	    						<div class="la_gambar">
+	    							<img src="KONTEN/artikel_6.jpg" title="" alt="">
+	    						</div>
+	    						<h4>Richard Sembiring Appointed as Hotel Manager of POP! Hotel Kemang Jakarta</h4>
+	    						<div class="separator_border"><span></span></div>
+	    					</a>
+	    				</li>
+	    				<li>
+	    					<a href="" title="">
+	    						<div class="la_gambar">
+	    							<img src="KONTEN/artikel_4.jpg" title="" alt="">
+	    						</div>
+	    						<h4>POP! Hotels Supports PROFAUNA Creative Design Competition to Raise Awareness on Endangered Forest Issue</h4>
+	    						<div class="separator_border"><span></span></div>
+	    					</a>
+	    				</li>
+	    				<li>
+	    					<a href="" title="">
+	    						<div class="la_gambar">
+	    							<img src="KONTEN/artikel_5.jpg" title="" alt="">
+	    						</div>
+	    						<h4>POP! Hotel Kemang Celebrated Second Anniversary with #KEMANGBEBASSAMPAH2016</h4>
+	    						<div class="separator_border"><span></span></div>
+	    					</a>
+	    				</li>
+	    				<li>
+	    					<a href="" title="">
+	    						<div class="la_gambar">
+	    							<img src="KONTEN/artikel_6.jpg" title="" alt="">
+	    						</div>
+	    						<h4>Richard Sembiring Appointed as Hotel Manager of POP! Hotel Kemang Jakarta</h4>
+	    						<div class="separator_border"><span></span></div>
+	    					</a>
+	    				</li>
+	    			</ul>
+	    			<div class="clr"></div>
+	    		</div>
+
+
+	    		<div class="all_artikel wow fadeInUp animated" data-wow-delay="0s">
+	    			 <a href="" class="baten"><span>All Buzz POP! Hotels</span></a>
+	    		</div>
+
+	    	</div>
+	    </section>
+
+	    <section class="batasna_kabeh start_your_pop">
+	    	<div class="batasna_wrap">
+
+	    		<div class="tju_katuhu">
+	    			<h3 class="wow fadeInUp animated" data-wow-delay="0.2s">Start<br>Your POP!</h3>
+			    	<div class="separator_border wow fadeInUp animated" data-wow-delay="0.4s"><span></span></div>
+			    	<p class="wow fadeInUp animated" data-wow-delay="0.6s">A modern stylish budget hotel for smart and eco-friendly travellers</p>
+			    	<a href="" title="" class="baten baten_icon wow fadeInUp animated" data-wow-delay="0.8s"><i class="i_kursor"></i> <span>Pick a POP! Now!</span></a>
+	    		</div><!--
+	    		--><div class="tju_kenca wow fadeInUp animated" data-wow-delay="0s">
+	    			<img src="gayana/gambar/start_your_pop.png" title="" alt="">
+	    		</div>
+
+	    	</div>
+	    </section>
+
+	    <section class="batasna_kabeh sosmed">
+	    	<div class="batasna_wrap">
+	    		<div class="clr"></div>
+
+	    		<div class="sosmed_kenca wow fadeInUp animated" data-wow-delay="0s">
+	    			<h3>POP! Hotels</h3>
+	    			<p>A modern stylish budget hotel for smart and eco-friendly travellers</p>
+	    		</div>
+	    		<div class="sosmed_katuhu">
+	    			<p class="wow fadeInUp animated" data-wow-delay="0s">Find Us on Social Media</p>
+	    			<nav>
+	    				<a href="" class="sosmed_fb wow fadeInUp animated" data-wow-delay="0s"></a><!--
+	    				--><a href="" class="sosmed_tw wow fadeInUp animated" data-wow-delay="0.2s"></a><!--
+	    				--><a href="" class="sosmed_ytb wow fadeInUp animated" data-wow-delay="0.4s"></a><!--
+	    				--><a href="" class="sosmed_ig wow fadeInUp animated" data-wow-delay="0.6s"></a><!--
+	    				--><a href="" class="sosmed_gp wow fadeInUp animated" data-wow-delay="0.8s"></a>
+	    			</nav>
+	    		</div>
+
+	    		<div class="clr"></div>
+
+	    	</div>
+	    </section>
+
+	    <footer class="batasna_kabeh">
+	    	<div class="batasna_wrap">
+	    		<div class="clr"></div>
+	    		
+	    		<div class="ftr_1 wow fadeInUp animated" data-wow-delay="0s">
+	    			<a href="" title="">
+	    				<img src="gayana/gambar/logo.png" title="" alt="">
+	    			</a>
+	    			<h3>That's POP!</h3>
+	    			<p>Smart - Value - Eco Friendly</p>
+			    	<div class="separator_border"><span></span></div>
+			    	<div class="ftr_1_text">
+			    		POP! is low on cost, High on VALUE<br>
+			    		POP! is Eco Friendly<br>
+			    		<span>Because what you do to your environment matters.</span>
+			    	</div>
+	    		</div>
+
+	    		<div class="ftr_2 wow fadeInUp animated" data-wow-delay="0.2s">
+	    			<h4>Sitemap</h4>
+	    			<nav>
+	    				<a href="" title="">Home</a>    
+						<a href="" title="">Pick a Pop!</a>    
+						<a href="" title="">Gallery</a>    
+						<a href="" title="">Your Wall</a>    
+						<a href="" title="">Green Planet</a>    
+						<a href="" title="">Buzz</a>    
+						<a href="" title="">Contact</a>
+	    			</nav>
+	    		</div>
+
+	    		<div class="ftr_2 wow fadeInUp animated" data-wow-delay="0.4s">
+	    			<h4>&nbsp;</h4>
+	    			<nav>
+	    				<a href="" title="">Join POP!</a>
+						<a href="" title="">POP! Your Land</a>
+						<a href="" title="">Sitemap</a>
+						<a href="" title="">Site Policy</a>
+						<a href="" title="">FAQ</a>
+						<a href="" title="">Newsletter</a>
+	    			</nav>
+	    		</div>
+
+	    		<div class="ftr_2 wow fadeInUp animated" data-wow-delay="0.6s">
+	    			<h4>Pick a POP!</h4>
+	    			<nav>
+	    				<a href="" title="">Jakarta</a>
+						<a href="" title="">Tangerang</a>
+						<a href="" title="">Bandung</a>
+						<a href="" title="">Yogyakarta</a>
+						<a href="" title="">Surabaya</a>
+						<a href="" title="">Bali</a>
+						<a href="" title="">Bandar Lampung</a>
+	    			</nav>
+	    		</div>
+
+	    		<div class="ftr_3 wow fadeInUp animated" data-wow-delay="0.8s">
+	    			<a href="" title="">
+	    				<img src="gayana/gambar/tauzia.png" title="" alt="">
+	    			</a>
+			    	<div class="separator_border"><span></span></div>
+			    	<p>TAUZIA other brands</p>
+			    	<nav>
+			    		<a href="" title=""><img src="gayana/gambar/p1.png" title="" alt=""></a><!--
+			    		--><a href="" title=""><img src="gayana/gambar/p2.png" title="" alt=""></a><!--
+			    		--><a href="" title=""><img src="gayana/gambar/p3.png" title="" alt=""></a>
+			    	</nav>
+
+	    		</div>
+
+	    		<div class="clr"></div>
+
+	    		<div class="ftr_kopireg wow fadeInUp animated" data-wow-delay="0s">&copy; Copyright 2016. POP! Hotels</div>
+	    		<div class="ftr_kontak wow fadeInUp animated" data-wow-delay="0s">
+	    			<div class="fkna">
+	    				<span>CALL CENTER (​Available only in Indonesia)</span>
+	    				<p>0807 1 808080  -  (+62 21) 5296 0490 ​</p>
+	    			</div>
+	    			<div class="fkna">
+	    				<span>Email us</span>
+	    				<a href="mailto:callcenter@tauzia.com​"><p>callcenter@tauzia.com​</p></a>
+	    			</div>
+	    		</div>
+
+	    	</div>
+	    </footer>
+
+	    
+
+    </div>
+    <!--KONTEN-->
+
+
+
+    <!--STYLE JAVASCRIPT-->
+		<!--PLAGIN-->
+
+		<script type="text/javascript" src="gayana/js/jquery.min.js"></script>
+		<script type="text/javascript" src="gayana/js/script.js"></script>
+
+			<!--POPUP-->
+			<script type="text/javascript">
+			jQuery("document").ready(function($){
+				var popup_Booking = $('#popup_Booking'), popup_blok_klos_Booking = $('#popup_blok_klos_Booking');
+				popup_Booking.hide();
+				popup_blok_klos_Booking.on('click', function(){ popup_Booking.hide(); });
+				$('#buka_popup_Booking').on('click', function(){ popup_Booking.show(); });
+			});
+			</script>
+			<!--POPUP-->
+
+
+			<!--MENU UTAMA-->
+			<script type="text/javascript">
+			jQuery("document").ready(function($){
+			  var menu_utama_v2 = $('.menu_utama_v2');
+			  var menu_handap = $('.menu_handap');
+			  $(window).scroll(function () {
+			    if($(this).scrollTop() > 70) {
+			      menu_utama_v2.addClass('muv2_skrol');
+			    }else{
+			      menu_utama_v2.removeClass('muv2_skrol');
+			    }
+
+			    if($(this).scrollTop() > 320) {
+			      menu_handap.addClass('mh_skrol');
+			    }else{
+			      menu_handap.removeClass('mh_skrol');
+			    }
+			  }); 
+			});
+			</script>
+			<!--MENU UTAMA-->
+
+			<!--OWL-->
+			<script src="gayana/js/owl.carousel.min.js"></script>
+			<script>
+		    $(document).ready(function() {
+				var utama_bb_kk_kenca_gambar = $("#utama_bb_kk_kenca_gambar");
+				utama_bb_kk_kenca_gambar.owlCarousel({
+					itemsCustom : [
+						[0, 1]
+					],
+					pagination : false, navigation : false, mouseDrag : true, autoPlay : true, stopOnHover : true, lazyLoad : true, slideSpeed : 200, paginationSpeed : 800
+				});
+				
+				$("#ubk_kenca_gambar_next").click(function(){ utama_bb_kk_kenca_gambar.trigger('owl.next'); })
+				$("#ubk_kenca_gambar_prev").click(function(){ utama_bb_kk_kenca_gambar.trigger('owl.prev'); })
+
+		    });
+		    </script>
+		    <script>
+		    $(document).ready(function() {
+				var pla_list = $("#pla_list");
+				pla_list.owlCarousel({
+					itemsCustom : [
+						[0, 1],
+						[570, 2],
+						[800, 3]
+					],
+					pagination : false, navigation : false, mouseDrag : true, autoPlay : true, stopOnHover : true, lazyLoad : true, slideSpeed : 200, paginationSpeed : 800
+				});
+				
+				$("#pla_next").click(function(){ pla_list.trigger('owl.next'); })
+				$("#pla_prev").click(function(){ pla_list.trigger('owl.prev'); })
+
+		    });
+		    </script>
+		    <script>
+		    $(document).ready(function() {
+				var pla_list_2 = $("#pla_list_2");
+				pla_list_2.owlCarousel({
+					itemsCustom : [
+						[0, 1],
+						[570, 2],
+						[800, 3]
+					],
+					pagination : false, navigation : false, mouseDrag : true, autoPlay : true, stopOnHover : true, lazyLoad : true, slideSpeed : 200, paginationSpeed : 800
+				});
+				
+				$("#pla_next_2").click(function(){ pla_list_2.trigger('owl.next'); })
+				$("#pla_prev_2").click(function(){ pla_list_2.trigger('owl.prev'); })
+
+		    });
+		    </script>
+			<!--OWL-->
+
+			<script src="gayana/datetime_picker/jquery.datetimepicker.full.min.js"></script>
+			<script type="text/javascript">
+			jQuery.datetimepicker.setLocale('de');
+
+			jQuery('.datetimepicker1').datetimepicker({
+			 i18n:{
+			  de:{
+			   months:[
+			    'Januari','Februari','Maret','April',
+			    'Mei','Juni','Juli','August',
+			    'September','Oktober','November','Desember',
+			   ],
+			   dayOfWeek:[
+			    "So.", "Mo", "Di", "Mi", 
+			    "Do", "Fr", "Sa.",
+			   ]
+			  }
+			 },
+			 timepicker:false,
+			 format:'d.m.Y'
+			});
+			</script>
+
+		<!--!PLAGIN-->
+	<!--!STYLE JAVASCRIPT-->
+
+
+</body>
+</html>
